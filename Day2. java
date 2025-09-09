@@ -1,0 +1,14 @@
+package Day2.java;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        int umur = 19;
+        String nama = "aul";
+        double Bb = 48.0;
+        System.out.println("nama : "+ nama);
+        System.out.print("umur  "+ umur);
+        System.out.println();
+        System.out.printf("Nama saya %s,%nBb saya %.1f,%ndan umur saya %dtahun.",nama,Bb,umur);
+    }   
+}
