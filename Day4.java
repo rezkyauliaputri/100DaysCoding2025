@@ -12,8 +12,8 @@ public class Main {
         //* \n digunakan untuk membuat baris baru dalam output teks
         //* \t digunakan untuk memberikan spasi 
         //* \b digunakan untuk menghapus 1karakter/1huruf 
-        // " digunakan untuk mencetak karakter double quote
-        // ' digunakan untuk mencetak karakter singel quote
+        // "  backslash digunakan untuk mencetak karakter double quote
+        // ' backslash digunakan untuk mencetak karakter singel quote
         
     }
     
