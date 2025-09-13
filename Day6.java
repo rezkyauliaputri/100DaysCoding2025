@@ -3,13 +3,13 @@ package day6.java;
 public class Main {
     
     public static void main(String[] args) {
-        float berat = 49f;
+        float berat = 49f.0;
         System.out.println("berat : " + berat + "kg");
-        double tinggi = 165;
+        double tinggi = 165.0;
         System.out.println("tinggi : " + tinggi + "cm");
         /*perbedaan tipe data diatas ialah float pengggunaan lebih
          lebih kecil di banding double begitupun sebaliknya
-        double lebih besar dibandingkan float 
+        double lebih besar dibandingkan float/*
          
         
     }
