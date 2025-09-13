@@ -3,7 +3,7 @@ package day6.java;
 public class Main {
     
     public static void main(String[] args) {
-        float berat = 49f.0;
+        float berat = 49.0f;
         System.out.println("berat : " + berat + "kg");
         double tinggi = 165.0;
         System.out.println("tinggi : " + tinggi + "cm");
