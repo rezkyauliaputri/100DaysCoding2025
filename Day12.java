@@ -3,30 +3,32 @@ import java.util.Scanner;
 
 public class Main {
    
-    public static void main(String[] args) {
-        // biodata saya 
-        String nama = "rezky aulia putri";
-        System.out.print("masukkan nama: ");
-        nama = input.nextline();
-        String nim = "D0225029";
+    public static void main(String[] args) { 
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print(" masukkan nama: ");
+        String nama = input.nextLine();
+        
         System.out.print(" masukkan nim: ");
-        nim = input.nextline();
-        int umur = 19;
-        Syatem.out.print(" masukkan umur: ");
-        umur = input.nextint();
-        char kelas = 'C';
-        Syatem.out.print(" masukkan kelas: ");
-        kelas = input.next(). charAt(0);
-        String alamat ="Lakejo";
+        String nim = input.nextLine();
+        
         System.out.print(" masukkan alamat: ");
-        alamat = input.nextline();
-        float berat = 48.0f;
-        Syatem.out.print(" masukkan berat: ");
-        berat = input. nextFloat();
-        double tinggi = 166.5;
-        System.out.print("masukkan tinggi: ");
-        tinggi = input.nextDouble();
-        // menampilkan output biodata 
+        String alamat = input.nextLine();
+        
+        System.out.print(" masukkan umur: ");
+        int umur = input.nextInt();
+        
+        System.out.print(" masukkan kelas: ");
+        char kelas = input.next().charAt(0);
+        
+        System.out.print(" masukkan berat: ");
+        float berat = input. nextFloat();
+        
+        System.out.print(" masukkan tinggi: ");
+        double tinggi = input.nextDouble();
+        
+        System.out.println();
+        
         System.out.println("nama \t\t: " + nama);
         System.out.println("nim \t\t: " + nim);
         System.out.println("umur \t\t: " + umur);
@@ -34,6 +36,7 @@ public class Main {
         System.out.println("alamat \t\t: " + alamat);
         System.out.println("berat \t\t: " + berat);
         System.out.println("tinggi \t\t: " + tinggi + " cm ");
+        
         //hari ini saya commit biodata saya menggunakan beberapa type data yaitu:
         // String,int,double,float dan char
         // \t\t untuk menyamaratakan =
@@ -42,3 +45,4 @@ public class Main {
     }
     
 }
+    
