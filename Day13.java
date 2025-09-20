@@ -67,8 +67,8 @@ public class ScannerBiodata {
         System.out.print("masukkan nim: ");
         String nim = input.nextLine();
         nim = input.nextLine();
-        System.out.print("masukkan rajin :");
-        boolean rajin = input.nextBoolean();
+        System.out.print("masukkan status :");
+        boolean status = input.nextBoolean();
         System.out.print("masukkan tinggi Badan: ");
         double TinggiBadan = input.nextDouble();
         System.out.print("masukkan Berat Badan: ");
@@ -81,9 +81,9 @@ public class ScannerBiodata {
         System.out.print(" Nama\t\t:\t " + nama + "\n");
         System.out.print(" Umur\t\t:\t " + umur + " Tahun" +"\n");
         System.out.print(" NIM\t\t:\t " + nim + "\n");
-        System.out.print(" Rajin\t\t:\t " + rajin + "\n");
+        System.out.print(" Status\t\t:\t " + status + "\n");
         System.out.print(" Tinggi Badan\t:\t " + TinggiBadan + " cm " + "\n");
-        System.out.print(" Berat Badan\t:\t" + BeratBadan + " kg " + "\n");
+        System.out.print(" Berat Badan\t:\t " + BeratBadan + " kg " + "\n");
         System.out.print(" kelas\t\t:\t " + kelas + "\n");
         System.out.print(" Alamat\t\t:\t " + alamat + "\n");
         
