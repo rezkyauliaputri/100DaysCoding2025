@@ -11,7 +11,8 @@ public class Day21 {
        // penukaran variabel
        short piu = pu;
        pu = pi;
-       pi = piu;System.out.println("setelah ditukar : pu = " + pu + ",pi= "+ pi);
+       pi = piu;
+      System.out.println("setelah ditukar : pu = " + pu + ",pi= "+ pi);
        
        
        int a = 10;
