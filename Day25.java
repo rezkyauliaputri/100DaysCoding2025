@@ -11,10 +11,10 @@ public class Day25 {
         byte i =9;
         byte j = 5;
     
-        System.out.println(" post increment : a++ " + a);
-        System.out.println("pre increment : ++h " + h);
-        System.out.println("post decrement : i-- " + i);
-        System.out.println("pre decrement : --j " + j);
+        System.out.println(post increment : a++);
+        System.out.println(pre increment : ++h);
+        System.out.println(post decrement : i--);
+        System.out.println(pre decrement : --j);
             
         
         
