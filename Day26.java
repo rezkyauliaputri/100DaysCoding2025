@@ -19,6 +19,8 @@ public class Day26 {
         System.out.println(h);
         h %= j;
         System.out.println(h);
+        h = j;
+        System.out.println(h);
         
         
     }
