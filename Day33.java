@@ -16,7 +16,7 @@ public class Day33Java {
         
         boolean akhir = angka1 != angka2;
         
-        System.out.printf("apakah %d tidak sama dengan %d : %b \n",angka1,angka2,akhir);
+        System.out.println("apakah angka1 tidak sama dengan angka2 : "+ !hasil);
         
         
     }
