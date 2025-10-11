@@ -17,7 +17,7 @@ public class Main {
         
         int bagi = a / b;
         
-        boolean hasil = (a%2 == 0 && a > c || (a-b) <= 10);
+        boolean hasil = (a%2 == 0 && bagi > c || (a-b) <= 10);
         System.out.println("Hasil logika = " + hasil);
         
         
