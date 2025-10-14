@@ -3,18 +3,32 @@ import java.util.Scanner;
 public class Main {
     
     public static void main(String[] args) {
-        Scanner inp = new Scanner(System.in);
-        System.out.print("nilai :");
-        int nilai = inp.nextInt();
-        if (nilai % 2 == 0){
-            System.out.println("nilai diatas merupakan nilai genap:");
+        Scanner in = new Scanner(System.in);
+        
+        
+        System.out.print("Masukkan angka:");
+        int angka = in.nextInt();
+        System.out.print("Masukkan nilai:");
+        int nilai = in.nextInt();
+        
+        int hasil = angka * nilai;
+        System.out.println("Hasil perkalian = " + hasil);
+        
+        if(hasil % 2 == 0) {
+            System.out.println("hasil perkalian adalah angka genap");
         }else{
-            System.out.println("nilai diatas merupakan nilai ganjil:");
-            
+            System.out.println("hasil perkalian adalah angka ganjil");
+        }
+        
         
     }
     
 }
-}
+            
+        
+    
+    
+
+
     
     
